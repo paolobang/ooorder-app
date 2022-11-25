@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.5.0",
+    "apollo-boost": "^0.4.7",
+    "axios": "^0.19.2",
+    "express": "^4.18.2",
+    "graphql": "^14.7.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "mdb-react-ui-kit": "^5.0.0",
+    "next": "^9.4.0",
+    "next-apollo": "^3.1.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.6.0",
+    "reactstrap": "^9.1.5"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}

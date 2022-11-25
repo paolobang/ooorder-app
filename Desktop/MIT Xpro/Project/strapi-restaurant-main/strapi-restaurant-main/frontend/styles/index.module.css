@@ -1,0 +1,76 @@
+
+.icon{
+    
+    width: 34px;
+    border-radius: 50%;
+
+}
+
+
+.card_restaurant{
+    margin-bottom: 1.5rem;
+    transition: transform 0.5s ease 0s;
+}
+.card_restaurant:hover{
+    transform: scale(1.05);
+}
+.img_section{
+    height: 150px;
+}
+
+.img_card{
+    
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: medium none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.card_title h3{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.card_description {
+    font-size: 0.65rem;
+    margin-right: .5rem;
+    color: #000;
+  }
+
+  .card_promo {
+    font-size: 0.65rem;
+    margin-left: 0.1rem;
+    color: #007aff;
+  }
+
+  .text_section{
+    margin-left: 0.5rem;
+    color: #000;
+  }
+  .card_subtitle {
+    display:flex; 
+  }
+
+  .bar_search {
+    margin: 0rem 0rem 2rem 0rem;
+    width: 100%;
+  }
+
+  .card_footer{
+    display: flex;
+    background: none;
+    border: 0px;
+    padding: .75rem .25rem;
+
+  }
+

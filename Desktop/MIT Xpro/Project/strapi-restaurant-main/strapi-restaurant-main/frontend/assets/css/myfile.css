@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;400;600&display=swap');
+
+body {
+    font-family: 'Alexandria', sans-serif;
+}
+
+p {
+    font-size: .85rem;
+}
+
+a {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.svg-logo {
+
+    transition: fill 0.3s ease;
+}
+.svg-logo:hover{
+    fill: #dc3545;
+    text-decoration: none;
+}

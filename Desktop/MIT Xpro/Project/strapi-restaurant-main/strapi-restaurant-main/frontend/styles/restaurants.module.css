@@ -1,0 +1,44 @@
+.title {
+    color: #554104;
+}
+.card_dishes{
+    margin: 0 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #e6ebf1;
+    border-bottom-width: 1px;
+}
+
+.raw_cards{
+    display: grid;
+    grid-gap: 1rem 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.card_content{
+    display:flex;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+}
+
+.card_image {
+    width: 100px;
+    height: 100px;
+}
+
+.card_footer{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 1.25rem 0 1.25rem 1.25rem;
+
+}
+
+.img_background{
+    display: block;
+    
+    min-height: 4rem;
+}

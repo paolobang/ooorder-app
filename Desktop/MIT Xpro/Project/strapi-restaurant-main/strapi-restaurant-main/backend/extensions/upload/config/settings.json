@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "AKIAYKSIOH6HBZ7NARU2",
+      "secretAccessKey": "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",
+      "region": "us-east-1",
+      "params": {
+        "Bucket": "backend-order-uploads"
+      }
+    }
+  }
